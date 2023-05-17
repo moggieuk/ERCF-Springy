@@ -37,7 +37,7 @@ In addition to the selector cart it is important to print and fit a new "Idler B
 
 ### Hardware
 <ul>
-<li>1x M3x16mm SHCS bolt for articulated servo pivot
+<li>1x M3x12mm SHCS bolt for articulated servo pivot
 <li>1x M3x6mm SHCS bolt to replace 8mm used to secure encoder
 <li>1x 12mm or 15mm s/s compression spring.  This should be a 6mm diameter, 1mm wire compression spring.  Both will work and the 12mm is commonly supplied in extruder kits.So you might have one lying around
 <li>2x 3x2mm round neodymium magnets.  These are optional if you want the updated cover to lock shut.
@@ -50,24 +50,44 @@ Here is the articulated servo mount showing the MG90S servo verion and a 12mm sp
 
 ## Assembly
 
-Dissassembly: Remove the 6mm selector belt and separate the 8mm rods from the "Idle Block" end.  Remove the Encoder from the Selector Cart.  Remove the old Selector Cart from the 8mm rods.
+* Dissassembly: Remove the 6mm selector belt and separate the 8mm rods from the "Idle Block" end.  Remove the Encoder from the Selector Cart.  Remove the old Selector Cart from the 8mm rods.
 
-Make sure to replace the Idle Block with the new one.
+* Make sure to replace the Idle Block with the new one.
   
-The servo mounts have break away suppports (MG90S has 4, Savox has 2) shown in grey below.  [Note: The print orientation is chosen to ensure strengh in the hinge area]. The M3 brass inserts are the same as the original with one exception.  The insert that forms the pivot for the servo should be set 1mm BELOW the surface.  The new STL has provision for this.
+* The servo mounts have break away suppports (MG90S has 4, Savox has 2) shown in grey below.  [Note: The print orientation is chosen to ensure strengh in the hinge area]. The M3 brass inserts are the same as the original with one exception.  The insert that forms the pivot for the servo should be set 1mm BELOW the surface.  The new STL has provision for this.
 
 <img src="doc/Break_Off_Tabs_Servo_Mount.png" width="400" alt="ERCF Springy Cross Section">
   
-Fit the servo with two M2x9mm self tapping screws.  IMPORTANT: Make sure the screws don't poke through to the other side. If they do, remove then and file then slightly before refitting. The screws supplied by the servo vendors do fit but others can be a little long.
+* Fit the servo with two M2x9mm self tapping screws.  IMPORTANT: Make sure the screws don't poke through to the other side. If they do, remove then and file then slightly before refitting. The screws supplied by the servo vendors do fit but others can be a little long.
 
 <img src="doc/Break_Off_Tabs_Selector_Cart.png" width="400" alt="ERCF Springy Cross Section">
 
-Break away the 2 numbered supports from the Selector Cart.  Fit the spring (and spacer if necessary) into the cart.  Insert the servo assemply print side first then depress the pivot side and secure the servo pivot with a M3x16mm SHCS bolt -- it should just reach the backside of the brass insert.
+* Break away the 2 numbered supports from the Selector Cart.  Fit the spring (and spacer if necessary) into the cart.  Insert the servo assemply print side first then depress the pivot side and secure the servo pivot with a M3x12mm SHCS bolt -- it should just reach the backside of the brass insert.
 
-Add back the encoder changing the one M3x8mm to a M3x6mm SHCS (fits into the other side of the insert shared with the servo pivot).
+It should articulate similar to this video: (https://www.youtube.com/shorts/Brj2L9Y7NeA)
+
+* Add back the encoder changing the one M3x8mm to a M3x6mm SHCS (fits into the other side of the brass insert shared with the servo pivot).
   
-Secure the servo wiring as shown in the picture.  The loop with provide necessary free movement to prevent strain on the wire
-  
+* Secure the servo wiring as shown in the picture.  The *small* loop will provide necessary free movement to prevent strain on the wire. **Don't fit the servo arm at this stage.**
+
+<img src="doc/Servo_Wire.png" width="400" alt="Servo Wire"> 
+
+* Reassemble ERCF and reconnect wiring.
+
+* Replace all the Top Hats with the Unitversal one supplied in this repo.
+
+* Insert a 3x2mm magnet into the new stronger connector cover and corresponding hole on the selector cart
+
+* Once ERCF is operational again, align the selector with one of the gates. Run `ERCF_SERVO_UP` to ensure the servo is in the up position.  Fit the new servo arm on the spine that best holds the arm against the servo body (fine adjustments can be made later to the servo angle in `ercf_parameters.cfg`)
+
+* Run `ERCF_SERVO_DOWN` or `ERCF_TEST_SERVO VALUE=xxx` to find the angle where the `V` on the servo arm aligns with the tiny `^` on the Top Hat.  This eliminates any judgement and represents the best location for the down position.
+
+<img src="doc/Servo_Arm_Alignment.png" width="400" alt="Servo Arm Alignement">
+
+Now enjoy more reliable and hopefully less filament slippage.   Note: This removes one or two variables from your setup -- friction in the filament path can still lead to problems.
+
+Good luck.  You can find me on Discord as `moggieuk#6538`
+
 
     (\_/)
     ( *,*)
