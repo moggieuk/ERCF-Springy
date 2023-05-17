@@ -76,6 +76,8 @@ It should articulate similar to this video: (https://www.youtube.com/shorts/Brj2
 
 * Replace all the Top Hats with the Unitversal one supplied in this repo.
 
+* Insert a 3x2mm magnet into the new stronger connector cover and corresponding hole on the selector cart
+
 * Once ERCF is operational again, align the selector with one of the gates. Run `ERCF_SERVO_UP` to ensure the servo is in the up position.  Fit the new servo arm on the spine that best holds the arm against the servo body (fine adjustments can be made later to the servo angle in `ercf_parameters.cfg`)
 
 * Run `ERCF_SERVO_DOWN` or `ERCF_TEST_SERVO VALUE=xxx` to find the angle where the `V` on the servo arm aligns with the tiny `^` on the Top Hat.  This eliminates any judgement and represents the best location for the down position.
