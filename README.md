@@ -17,7 +17,7 @@ Also, some folks have asked about making a donation to cover the cost of the all
 Thank you!
 
 ## "Springy" Internals
-This cross section reveals how Spring works.  The servo (both MG90S and Savox SH255mg are supported) pivots and provides about 2-3mm of movement.  The updated servo arm design aligns with the new universion top hat and ensures constant grip with varying distances and servo arm wear.
+This cross section reveals how Spring works.  The servo (both MG90S and Savox SH255mg are supported) pivots and provides about 2-3mm of movement.  The updated servo arm design aligns with the new universal top hat and ensures constant grip with varying distances and servo arm wear.
 
 <img src="doc/Crosssection.png" width="400" alt="ERCF Springy Cross Section">
 
