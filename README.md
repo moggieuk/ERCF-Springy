@@ -23,11 +23,11 @@ This cross section reveals how Spring works.  The servo (both MG90S and Savox SH
 
 Other changes / notes:
 <ul>
-<li>The "Idler Block" at the end of the 8mm rods will need to be replaced to provide an enlarged pocket for servo movement
-<li>You must replace all your top-hats with the "universal" design supplied
-<li>The selector door has been strengthed in the hinge area and now locks with two 2x3mm magnets
-<li>Articulated servo mounts are provided for both the popular MG90S and Savox servo options
-<li>Either 12mm or 15mm springs can be used. If you use the shorter 12mm spring, a "spring extender" is included to lengthen to the required 15mm.  You could print this at different scales if necessary to adjust to other 6mm springs you have handy.  You do want the 1mm s/steel wire size though to provide the correct pressure
+<li>The "Idler Block" at the end of the 8mm rods will need to be replaced to provide an enlarged pocket for servo movement.
+<li>You must replace all your top-hats with the "universal" design supplied.
+<li>The selector door has been strengthed in the hinge area and now locks with two 2x3mm magnets.
+<li>Articulated servo mounts are provided for both the popular MG90S and Savox servo options.
+<li>Either 12mm or 15mm springs can be used. If you use the shorter 12mm spring, a "spring extender" is included to lengthen to the required 15mm.  You could print this at different scales if necessary to adjust to other 6mm springs you have handy.  You do want the 1mm s/steel wire size though to provide the correct pressure.
 </ul>
 
 ## Parts needed
@@ -58,7 +58,7 @@ Here is the articulated servo mount showing the MG90S servo verion and a 12mm sp
 
 <img src="doc/Break_Off_Tabs_Servo_Mount.png" width="400" alt="ERCF Springy Cross Section">
   
-* Fit the servo with two M2x9mm self tapping screws.  IMPORTANT: Make sure the screws don't poke through to the other side. If they do, remove then and file then slightly before refitting. The screws supplied by the servo vendors do fit but others can be a little long.
+* Fit the servo with two M2x6mm (or 8mm) self tapping screws.  IMPORTANT: Make sure the screws don't poke through to the other side. If they do, remove then and file then slightly before refitting. I found the screws supplied by the servo vendors fitted but others can be a little long.
 
 <img src="doc/Break_Off_Tabs_Selector_Cart.png" width="400" alt="ERCF Springy Cross Section">
 
