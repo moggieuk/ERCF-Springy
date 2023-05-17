@@ -1,6 +1,6 @@
 # ERCF-Springy
 
-WARNING: This repo is still being set up...
+# WARNING: This repo is still being set up... Don't use this content just yet!
 
 ERCF "Springy" is a modification/upgrade to the ERCF v1.1 design.  One of the problems with ERCF is tuning the grip on the filament by swapping out different sized "top-hats" until sufficent grip is found.  This is a hassle and, although mostly works, the problem is that the flexible nature of the connection of filament blocks and the fact that the servo arm wears over time means that it isn't reliable over time.  Enter "Springy"...
 
@@ -8,8 +8,8 @@ Springy is a reworked Selector Cart (and ancillary components) with built in art
 
 Also check out my other ERCF projects:
 <ul>
-<li>Happy Hare v3 software
-<li>KlipperScreen Happy Hare Edition
+<li>Happy Hare v3 software (https://github.com/moggieuk/ERCF-Software-V3)
+<li>KlipperScreen Happy Hare Edition (https://github.com/moggieuk/KlipperScreen-Happy-Hare-Edition)
 </ul>
 
 Also, some folks have asked about making a donation to cover the cost of the all the coffee I'm drinking.  I'm not doing this for any financial reward but it you feel inclined a donation to PayPal https://www.paypal.me/moggieuk will certainly be spent making your life with ERCF more enjoyable.
