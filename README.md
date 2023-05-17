@@ -62,7 +62,7 @@ Here is the articulated servo mount showing the MG90S servo verion and a 12mm sp
 
 <img src="doc/Break_Off_Tabs_Selector_Cart.png" width="400" alt="ERCF Springy Cross Section">
 
-* Break away the 2 numbered supports from the Selector Cart.  Fit the spring (and spacer if necessary) into the cart.  Insert the servo assemply spring side first then depress the pivot side and secure the servo pivot with a M3x12mm SHCS bolt -- it should just reach the backside of the brass insert.
+* Break away the 3 numbered supports from the Selector Cart.  Fit the spring (and spacer if necessary) into the cart.  Insert the servo assemply spring side first then depress the pivot side and secure the servo pivot with a M3x12mm SHCS bolt -- it should just reach the backside of the brass insert.
 
 It should articulate similar to this video: (https://www.youtube.com/shorts/Brj2L9Y7NeA)
 
@@ -80,7 +80,7 @@ It should articulate similar to this video: (https://www.youtube.com/shorts/Brj2
   
   <img src="doc/Magnetic_Door.png" width="400" alt="Magnetic_Door"> 
 
-* Once ERCF is operational again, align the selector with one of the gates. Run `ERCF_SERVO_UP` to ensure the servo is in the up position.  Fit the new servo arm (Savox version has "S" on arm, MG90S is clear) on the spine that best holds the arm against the servo body (fine adjustments can be made later to the servo angle in `ercf_parameters.cfg`)
+* Once ERCF is operational again, align the selector with one of the gates. Run `ERCF_SERVO_UP` to ensure the servo is in the up position.  Fit the new servo arm (Savox version has "S" on arm, MG90S is blank) on the spine that best holds the arm against the servo body (fine adjustments can be made later to the servo angle in `ercf_parameters.cfg`)
 
 * Run `ERCF_SERVO_DOWN` or `ERCF_TEST_SERVO VALUE=xxx` to find the angle where the `V` on the servo arm aligns with the tiny `^` on the Top Hat.  This eliminates any judgement and represents the best location for the down position.
 
