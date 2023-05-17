@@ -74,7 +74,7 @@ It should articulate similar to this video: (https://www.youtube.com/shorts/Brj2
 
 * Reassemble ERCF and reconnect wiring.
 
-* Replace all the Top Hats with the Unitversal one supplied in this repo.
+* Replace all the Top Hats with the universal one supplied in this repo (they have a v2.0 printed on the top edge)
 
 * Insert a 3x2mm magnet into the new stronger connector cover and corresponding hole on the selector cart
   
