@@ -23,7 +23,7 @@ Other changes / notes:
 <ul>
 <li>The "Idler Block" at the end of the 8mm rods will need to be replaced to provide an enlarged pocket for servo movement.
 <li>You must replace all your top-hats with the "universal" design supplied.
-<li>The selector door has been strengthed in the hinge area and now locks with two 2x3mm magnets.
+<li>The selector door has been strengthed in the hinge area and now locks with two 3x2mm magnets.
 <li>Articulated servo mounts are provided for both the popular MG90S and Savox servo options.
 <li>Either 12mm or 15mm springs can be used. If you use the shorter 12mm spring, a "spring extender" is included to lengthen to the required 15mm.  You could print this at different scales if necessary to adjust to other 6mm springs you have handy.  You do want the 1mm s/steel wire size though to provide the correct pressure.
 </ul>
