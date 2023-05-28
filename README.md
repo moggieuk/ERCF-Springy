@@ -21,7 +21,7 @@ This cross section reveals how Spring works.  The servo (both MG90S and Savox SH
 
 Other changes / notes:
 <ul>
-<li>The "Idler Block" at the end of the 8mm rods will need to be replaced to provide an enlarged pocket for servo movement.
+<li>The "Idler Block" at the end of the 8mm rods should be replaced to provide an enlarged pocket for servo movement.
 <li>You must replace all your top-hats with the "universal" design supplied.
 <li>The selector door has been strengthed in the hinge area and now locks with two 3x2mm magnets.
 <li>Articulated servo mounts are provided for both the popular MG90S and Savox servo options.
