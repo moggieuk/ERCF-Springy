@@ -80,7 +80,7 @@ It should articulate similar to this video: (https://www.youtube.com/shorts/Brj2
 
 * Once ERCF is operational again, align the selector with one of the gates. Run `ERCF_SERVO_UP` to ensure the servo is in the up position.  Fit the new servo arm (Savox version has "S" on arm, MG90S is blank) on the spine that best holds the arm against the servo body (fine adjustments can be made later to the servo angle in `ercf_parameters.cfg`)
 
-* Run `ERCF_SERVO_DOWN` or `ERCF_TEST_SERVO VALUE=xxx` to find the angle where the `V` on the servo arm aligns with the tiny `^` on the Top Hat.  This eliminates any judgement and represents the best location for the down position. **NOTE: the angle of movement is a little bit smaller that before, so don't assume your existing value is correct - test again carefully working up to the correct postion!:w
+* Run `ERCF_SERVO_DOWN` or `ERCF_TEST_SERVO VALUE=xxx` to find the angle where the `V` on the servo arm aligns with the tiny `^` on the Top Hat.  This eliminates any judgement and represents the best location for the down position. **NOTE: the angle of movement is a little bit smaller than before, so don't assume your existing value is correct - test again carefully working up to the correct postion!
   **
 
 <img src="doc/Servo_Arm_Alignment.png" width="400" alt="Servo Arm Alignement">
