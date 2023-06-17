@@ -1,8 +1,16 @@
-# ERCF-Springy (BETA)
+# ERCF-Springy (BETA-2)
 
 ERCF "Springy" is a modification/upgrade to the ERCF v1.1 design.  One of the problems with ERCF is tuning the grip on the filament by swapping out different sized "top-hats" until sufficent grip is found.  This is a hassle and, although mostly works, the problem is that the flexible nature of the connection of filament blocks and the fact that the servo arm wears over time means that it isn't reliable.  Enter "Springy"...
 
 Springy is a reworked Selector Cart (and ancillary components) with built in articulated sprung servo.  The whole servo assembly moves to ensure consistent pressure to grip the filament and works with a single "universal" top-hat.
+
+Beta 1 -> Beta 2 Changes:
+<ol>
+<li>Improved supports (gaps)
+<li>Adjustment screw for spring (must always use the Spring_Cap.stl part). Obviously you need to add a threaded insert at the top of the spring hole -- careful you need a steady had to do this.
+<li>Minor adjustment to servo mounting carts - they had a slightly lower resting position than desired
+<li>The servo pivot is no longer two screws but a single M3x20.  It makes is slightly more difficult to assembly because you need to attach the encoder at the same time as securing the pivot for the servo. Idea from ERCF discord channel.
+</ol>
 
 Also check out my other ERCF projects:
 <ul>
@@ -17,7 +25,9 @@ Thank you!
 ## "Springy" Internals
 This cross section reveals how Spring works.  The servo (both MG90S and Savox SH255mg are supported) pivots and provides about 2-3mm of movement.  The updated servo arm design aligns with the new universal top hat and ensures constant grip with varying distances and servo arm wear.
 
-<img src="doc/Crosssection.png" width="400" alt="ERCF Springy Cross Section">
+<img src="doc/Crossection.png" width="400" alt="ERCF Springy Cross Section">
+
+<img src="doc/Model_Body.png" width="400" alt="New Selector Arm Body">
 
 Other changes / notes:
 <ul>
@@ -25,7 +35,7 @@ Other changes / notes:
 <li>You must replace all your top-hats with the "universal" design supplied.
 <li>The selector door has been strengthed in the hinge area and now locks with two 3x2mm magnets.
 <li>Articulated servo mounts are provided for both the popular MG90S and Savox servo options.
-<li>Either 12mm or 15mm springs can be used. If you use the shorter 12mm spring, a "spring extender" is included to lengthen to the required 15mm.  You could print this at different scales if necessary to adjust to other 6mm springs you have handy.  You do want the 1mm s/steel wire size though to provide the correct pressure.
+<li>Springs from about 10mm to 15mm accomodated - cut it too long.  You do want the 1mm s/steel wire size though to provide the correct pressure.
 </ul>
 
 ## Parts needed
@@ -35,14 +45,14 @@ In addition to the selector cart it is important to print and fit a new "Idler B
 
 ### Hardware
 <ul>
-<li>1x M3x12mm SHCS bolt for articulated servo pivot
-<li>1x M3x6mm SHCS bolt to replace 8mm used to secure encoder
-<li>1x 12mm or 15mm s/s compression spring.  This should be a 6mm diameter, 1mm wire compression spring.  Both will work and the 12mm is commonly supplied in extruder kits.So you might have one lying around
+<li>1x M3x20mm SHCS bolt for articulated servo pivot. This secures both the encoder and is the pivot for the articulated servo arm.
+<li>1x 10mm - 15mm s/s compression spring.  This should be a 6mm diameter, 1mm wire compression spring.
+<li>1x M3 heatset for the spring compression adjustment
 <li>2x 3x2mm round neodymium magnets.  These are optional if you want the updated cover to lock shut.
 <li>2x M2x8mm self tapping "servo" screws (these are the ones that were probably supplied with servo). Note the warning about too long screws below.
 
 
-Here is the articulated servo mount showing the MG90S servo verion and a 12mm spring (and therefore the 3mm spring extender). The Savox mount is slightly different. Don't fit spring extender when using 15mm long spring.
+Here is the articulated servo mount showing the MG90S servo verion and a 12mm spring. The Savox mount is slightly different.
 
 <img src="doc/Articulated_Servo_Mount.png" width="400" alt="MG90S Articulated Servo Mount">
 
@@ -50,7 +60,7 @@ Here is the articulated servo mount showing the MG90S servo verion and a 12mm sp
 
 * Dissassembly: Remove the 6mm selector belt and separate the 8mm rods from the "Idle Block" end.  Remove the Encoder from the Selector Cart.  Remove the old Selector Cart from the 8mm rods.
 
-* Make sure to replace the Idle Block with the new one.
+* TO avoid clearance problems make sure to replace the Idle Block with the new one because is has a slightly enlarged cutout for servo.
   
 * The servo mounts have break away suppports (MG90S has 4, Savox has 2) shown in grey below.  [Note: The print orientation is chosen to ensure strengh in the hinge area]. The M3 brass inserts are the same as the original with one exception.  The insert that forms the pivot for the servo should be set 1mm BELOW the surface.  The new STL has provision for this.
 
@@ -60,11 +70,15 @@ Here is the articulated servo mount showing the MG90S servo verion and a 12mm sp
 
 <img src="doc/Break_Off_Tabs_Selector_Cart.png" width="400" alt="ERCF Springy Cross Section">
 
-* Break away the 3 numbered supports from the Selector Cart.  Fit the spring (and spacer if necessary) into the cart.  Insert the servo assemply spring side first then depress the pivot side and secure the servo pivot with a M3x12mm SHCS bolt -- it should just reach the backside of the brass insert.
+* Break away the 3 numbered supports from the Selector Cart.
+
+* Press a M3 heatset at the back of the spring hole.  Putting on the heatset on a M2 allen or small screwdriver will help guide it.  CAREFULLY with a steady hand, press the heatset into the base of the hole without deforming the surrounding plastic.
+
+* Fit the spring and spring cap into the cart.  Insert the servo assemply spring side first then depress the pivot side and secure the servo pivot with a M3x20mm SHCS bolt (the same one that will later hold the encoder).
 
 It should articulate similar to this video: (https://www.youtube.com/shorts/Brj2L9Y7NeA)
 
-* Add back the encoder changing the one M3x8mm to a M3x6mm SHCS (fits into the other side of the brass insert shared with the servo pivot).
+* Add back the encoder changing the one M3x8mm to a M3x20mm SHCS (fits into the other side of the brass insert shared with the servo pivot).
   
 * Secure the servo wiring as shown in the picture.  The *small* loop will provide necessary free movement to prevent strain on the wire. **Don't fit the servo arm at this stage.**
 
