@@ -4,7 +4,7 @@ ERCF "Springy" is a modification/upgrade to the ERCF v1.1 design.  One of the pr
 
 Springy is a reworked Selector Cart (and ancillary components) with built in articulated sprung servo.  The whole servo assembly moves to ensure consistent pressure to grip the filament and works with a single "universal" top-hat.
 
-Beta 1 -> Beta 2 Changes:
+## Beta 1 -> Beta 2 Changes:
 <ol>
 <li>Improved supports (gaps)
 <li>Adjustment screw for spring (must always use the Spring_Cap.stl part). Obviously you need to add a threaded insert at the top of the spring hole -- careful you need a steady had to do this.
@@ -27,7 +27,7 @@ This cross section reveals how Spring works.  The servo (both MG90S and Savox SH
 
 <img src="doc/Crossection.png" width="400" alt="ERCF Springy Cross Section">
 
-<img src="doc/Model_Body.png" width="400" alt="New Selector Arm Body">
+<img src="doc/Body_Model.png" width="400" alt="New Selector Arm Body">
 
 Other changes / notes:
 <ul>
