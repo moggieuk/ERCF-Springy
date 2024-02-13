@@ -7,7 +7,7 @@ Springy is a reworked Selector Cart (and ancillary components) with built in art
 ## Beta 1 -> Beta 2 Changes:
 <ol>
 <li>Improved supports (gaps)
-<li>Adjustment screw for spring (must always use the Spring_Cap.stl part). Obviously you need to add a threaded insert at the top of the spring hole -- careful you need a steady had to do this.
+<li>Adjustment screw for spring (must always use the Spring_Cap.stl part). Obviously you need to add a threaded insert at the top of the spring hole -- careful you need a steady hand to do this.
 <li>Minor adjustment to servo mounting carts - they had a slightly lower resting position than desired
 <li>The servo pivot is no longer two screws but a single M3x20.  It makes is slightly more difficult to assembly because you need to attach the encoder at the same time as securing the pivot for the servo. Idea from ERCF discord channel.
 <li>STLs Updated: `[a]_Springy_Selector_Cart.stl`, `Spring_Cap.stl`, `Springy_MG90S_Servo_Mount.stl`, `Springy_Savox_Servo_Mount.stl`
